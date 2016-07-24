@@ -13,6 +13,7 @@
 		D81EC38D1D44834C004CB8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81EC38B1D44834C004CB8E6 /* LaunchScreen.storyboard */; };
 		D81EC3951D448713004CB8E6 /* ItemsViewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81EC3941D448713004CB8E6 /* ItemsViewsController.swift */; };
 		D81EC3971D44895A004CB8E6 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81EC3961D44895A004CB8E6 /* Item.swift */; };
+		D81EC3991D449097004CB8E6 /* ItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81EC3981D449097004CB8E6 /* ItemStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D81EC38E1D44834C004CB8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D81EC3941D448713004CB8E6 /* ItemsViewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewsController.swift; sourceTree = "<group>"; };
 		D81EC3961D44895A004CB8E6 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D81EC3981D449097004CB8E6 /* ItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		D81EC3811D44834C004CB8E6 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				D81EC3981D449097004CB8E6 /* ItemStore.swift */,
 				D81EC3961D44895A004CB8E6 /* Item.swift */,
 				D81EC3941D448713004CB8E6 /* ItemsViewsController.swift */,
 				D81EC3821D44834C004CB8E6 /* AppDelegate.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				D81EC3831D44834C004CB8E6 /* AppDelegate.swift in Sources */,
 				D81EC3971D44895A004CB8E6 /* Item.swift in Sources */,
+				D81EC3991D449097004CB8E6 /* ItemStore.swift in Sources */,
 				D81EC3951D448713004CB8E6 /* ItemsViewsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

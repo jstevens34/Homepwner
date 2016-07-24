@@ -12,11 +12,15 @@ class ItemsViewController: UITableViewController {
     var itemStore : ItemStore!
     
     @IBAction func addNewItem(sender: AnyObject){
+        
+    }
+    
+    @IBAction func toggleEditingMode(sender: AnyObject){
         //If you are currently in editing mode...
         if editing{
             //Change text of button to inform user of state
             sender.setTitle("Edit", forState: .Normal)
-        
+            
             //Turn off editing mode
             setEditing(false, animated: true)
         }
@@ -27,14 +31,6 @@ class ItemsViewController: UITableViewController {
             //Enter editing mode
             setEditing(true, animated: true)
         }
-        
-        
-        
-        
-    }
-    
-    @IBAction func toggleEditingMode(sender: AnyObject){
-        
     }
     
     

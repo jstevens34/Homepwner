@@ -13,9 +13,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="gqe-im-WRI">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qcg-48-b5o">
+                                    <rect key="frame" x="304" y="15" width="288" height="30"/>
+                                    <state key="normal" title="Add"/>
+                                </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoH-h1-E3K">
+                                    <rect key="frame" x="8" y="15" width="288" height="30"/>
+                                    <state key="normal" title="Edit"/>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="Qcg-48-b5o" secondAttribute="trailing" constant="8" id="8Gh-ZG-wtE"/>
+                                <constraint firstItem="MoH-h1-E3K" firstAttribute="centerY" secondItem="gqe-im-WRI" secondAttribute="centerY" id="Jof-60-mv2"/>
+                                <constraint firstItem="Qcg-48-b5o" firstAttribute="centerY" secondItem="gqe-im-WRI" secondAttribute="centerY" id="Pn0-OT-F6W"/>
+                                <constraint firstItem="Qcg-48-b5o" firstAttribute="leading" secondItem="MoH-h1-E3K" secondAttribute="trailing" constant="8" id="jXK-Tg-BrF"/>
+                                <constraint firstItem="MoH-h1-E3K" firstAttribute="leading" secondItem="gqe-im-WRI" secondAttribute="leading" constant="8" id="lT7-14-Asq"/>
+                                <constraint firstItem="Qcg-48-b5o" firstAttribute="width" secondItem="MoH-h1-E3K" secondAttribute="width" id="uwv-Am-mgx"/>
+                            </constraints>
+                        </view>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="UITableViewCell" textLabel="4Ts-x0-BGm" detailTextLabel="r2f-aN-n99" style="IBUITableViewCellStyleValue1" id="DnO-Sn-f5T">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="88" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="DnO-Sn-f5T" id="IlR-Rg-48W">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>

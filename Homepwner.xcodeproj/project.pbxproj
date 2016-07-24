@@ -12,6 +12,7 @@
 		D81EC3881D44834C004CB8E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81EC3861D44834C004CB8E6 /* Main.storyboard */; };
 		D81EC38A1D44834C004CB8E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81EC3891D44834C004CB8E6 /* Assets.xcassets */; };
 		D81EC38D1D44834C004CB8E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81EC38B1D44834C004CB8E6 /* LaunchScreen.storyboard */; };
+		D81EC3951D448713004CB8E6 /* ItemsViewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81EC3941D448713004CB8E6 /* ItemsViewsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D81EC3891D44834C004CB8E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81EC38C1D44834C004CB8E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D81EC38E1D44834C004CB8E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D81EC3941D448713004CB8E6 /* ItemsViewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsViewsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		D81EC3811D44834C004CB8E6 /* Homepwner */ = {
 			isa = PBXGroup;
 			children = (
+				D81EC3941D448713004CB8E6 /* ItemsViewsController.swift */,
 				D81EC3821D44834C004CB8E6 /* AppDelegate.swift */,
 				D81EC3841D44834C004CB8E6 /* ViewController.swift */,
 				D81EC3861D44834C004CB8E6 /* Main.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				D81EC3851D44834C004CB8E6 /* ViewController.swift in Sources */,
 				D81EC3831D44834C004CB8E6 /* AppDelegate.swift in Sources */,
+				D81EC3951D448713004CB8E6 /* ItemsViewsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

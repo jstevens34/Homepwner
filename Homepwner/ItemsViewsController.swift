@@ -73,6 +73,19 @@ class ItemsViewController: UITableViewController {
         tableView.scrollIndicatorInsets = insets
     }
     
+    override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+        //If the table view is asking to commit a delete command...
+        if editingStyle == .Delete{
+            let item = itemStore.allItems[indexPath.row]
+            //Remove the item from the store 
+            itemStore.remove(item)
+            
+            //Also remove that row from the table view with an animation 
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: .Automatic)
+            
+        }
+    }
+    
     
     
 }

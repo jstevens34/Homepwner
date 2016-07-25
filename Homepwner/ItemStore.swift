@@ -18,4 +18,10 @@ class ItemStore {
         return newItem
     }
     
+    func remove(item: Item){
+        if let index = allItems.indexOf(item){
+            allItems.removeAtIndex(index)
+        }
+    }
+    
 }
